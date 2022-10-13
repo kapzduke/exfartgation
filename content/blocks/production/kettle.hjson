@@ -1,0 +1,28 @@
+requirements: [
+sand/500
+silicon/80
+metaglass/80
+]
+category: crafting
+craftEffect: smeltsmoke
+outputItem: potatochiss/1
+craftTime: 150
+size: 3
+hasPower: true
+hasLiquids: false
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, DrawFlame]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.12
+consumes: {
+power: 0.6
+items: {
+items: [
+copper/2
+coal/4
+]
+}
+}
+research: graphite-press
